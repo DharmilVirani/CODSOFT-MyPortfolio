@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+    --purple: rgb(167, 116, 234);
+    --grey: rgb(97, 97, 97);
+}
+
+body {
+    background-color: rgb(0, 0, 40);
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+.lineEnd {
+    border: 1px solid var(--grey);
+    margin-top: 120px;
+}
+
+.first {
+    border: 1px solid var(--grey);
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(60, 18, 107);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    border-bottom: 1px solid white;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.mainSection {
+    display: flex;
+    align-items: center;
+    margin-top: 175px;
+    justify-content: space-around;
+}
+
+.leftSection {
+    font-size: 1.6rem;
+}
+
+.rightSection img {
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 50px 4px var(--purple);
+}
+
+.purple {
+    color: var(--purple);
+}
+
+.heading {
+    font-size: 3rem;
+    text-align: start;
+    font-weight: 600;
+    padding-bottom: 5px;
+    border-bottom: 2px solid var(--purple);
+}
+
+.hproject {
+    width: 220px;
+}
+
+.up-container {
+    display: flex;
+    margin-top: 50px;
+}
+
+.straight-line {
+    border-bottom: 1px solid var(--grey);
+}
+
+.line {
+    border-left: 1px solid var(--grey);
+    height: 250px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+}
+
+.line:first-child {
+    border-left: none;
+}
+
+.down-container {
+    display: flex;
+}
+
+.p-container {
+    display: flex;
+    justify-content: space-around;
+    width: 1000px;
+}
+
+.p-title {
+    font-size: 2rem;
+}
+
+.tech-p {
+    font-size: 1.3rem;
+}
+
+.p-list {
+    list-style-type: decimal;
+}
+
+.p-list li {
+    margin-left: 20px;
+}
+
+.p {
+    margin-top: 50px;
+    font-size: 1rem;
+    line-height: 2;
+}
+
+.project-link {
+    font-size: 1.3rem;
+    width: 1000px;
+    margin-top: 50px;
+    list-style: decimal;
+    line-height: 2;
+}
+
+.link-content {
+    color: white;
+}
+
+.link-content a {
+    border-bottom: 1px solid white;
+}
+
+footer {
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    font-size: 1.3rem;
+}
